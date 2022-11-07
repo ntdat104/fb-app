@@ -6,6 +6,8 @@ fragment comment on Comment {
     _id
     email
     username
+    account
+    avatar
   }
   user {
     ...baseUser
